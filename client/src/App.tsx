@@ -1,15 +1,9 @@
 import React, { memo } from 'react';
-import Routers from './routers/Routers';
+import RouteWrapper from './routers/RouteWrapper';
 import { Footer, Header } from 'components/commonLayout';
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <Routers />
-      <Footer />
-    </>
-  );
+  return <RouteWrapper header={<Header />} footer={<Footer />} />;
 };
 
 export default memo(App);
