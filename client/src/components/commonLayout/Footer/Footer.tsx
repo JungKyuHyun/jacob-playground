@@ -1,5 +1,5 @@
 import React from 'react';
 
 export const Footer = () => {
-  return <>푸터</>;
+  return <div>푸터</div>;
 };

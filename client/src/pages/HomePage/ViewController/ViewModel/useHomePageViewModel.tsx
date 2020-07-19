@@ -1,4 +1,4 @@
-import { ViewModel } from '@core/viewModel';
+import { ViewModel } from 'core/viewModel';
 
 export type HomePageViewModel = ViewModel<typeof useHomePageViewModel>;
 
